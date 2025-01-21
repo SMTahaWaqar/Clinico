@@ -17,7 +17,7 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 interface CustomProps {
-  control: Control<any>;
+  control: any;
   fieldType: FormFieldType;
   name: string;
   label?: string;
